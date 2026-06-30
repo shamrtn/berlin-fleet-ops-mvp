@@ -9,7 +9,7 @@ This project simulates vehicle telemetry, integrates real-world venue data, tran
 ## 📊 Looker Data Studio Dashboard
 The interactive dashboard analyzes fleet utilization and exposes the structural flaws of static vehicle allocation models under real-world pressure.
 
-* 🔗 **[Live Interactive Dashboard Link](#)** *(https://datastudio.google.com/reporting/f6e8cdb2-a4fa-4cf9-97cc-b326e5166909)*
+* 🔗 **[Live Interactive Dashboard Link](https://datastudio.google.com/reporting/f6e8cdb2-a4fa-4cf9-97cc-b326e5166909)**
 * 📄 **[Static PDF Version](Fleet_Optimization_Dashboard.pdf)**
 
 ---
