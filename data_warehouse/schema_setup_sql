@@ -1,0 +1,20 @@
+-- 2_data_warehouse/schema_setup.sql
+
+-- 1. Create the Raw Taxi Trips Table
+CREATE OR REPLACE TABLE `berlin-taxi-optimization.berlin_fleet_raw.taxi_trips` (
+    trip_id STRING,
+    timestamp TIMESTAMP,
+    pickup_district STRING,
+    driver_id STRING,
+    driver_status STRING,
+    trip_duration_mins FLOAT64,
+    fare_amount_euros FLOAT64
+);
+
+-- 2. Create the Raw Weather Table
+CREATE OR REPLACE TABLE `berlin-taxi-optimization.berlin_fleet_raw.weather_hourly` (
+    timestamp TIMESTAMP,
+    temperature_celsius FLOAT64,
+    rain_mm FLOAT64,
+    snowfall_cm FLOAT64
+);
